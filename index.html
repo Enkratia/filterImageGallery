@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/15801db546.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Filter Image Gallery</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Bag</span>
+        <span class="item" data-name="shoe">Shoe</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+      </div>
+    </nav>
+
+    <div class="gallery">
+      <div class="image" data-name="bag"><span><img src="img/bag-1.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="img/camera-1.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="img/camera-2.jpg" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="img/headphone-1.png" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="img/headphone-2.png" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="img/shoe-1.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="img/shoe-2.jpg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="img/watch-1.png" alt=""></span></div>
+    </div>
+  </div>
+
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p>Not defined</p></span>
+      <i class="icon fas fa-times"></i>
+    </div>
+
+    <div class="image-box">
+      <img src="" alt="">
+    </div>
+  </div>
+  <div class="shadow"></div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
